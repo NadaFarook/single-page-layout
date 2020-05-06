@@ -1,0 +1,100 @@
+*{
+    font-family:'Karla', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: auto;
+    box-shadow: 0px 0px 8px rgb(155, 155, 155) ;
+    border-radius: 7px;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+header{
+    color:hsl(218, 22%, 67%) ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: white;
+}
+header h2,header h4,header p{
+    margin: 5% 7%;
+   
+}
+header h2{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 20px;
+}
+header h4{
+    color:hsl(71, 73%, 54%);
+}
+header p{
+    color: hsl(218, 22%, 67%) ;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.8;
+}
+section{
+    background-color: hsl(179, 62%, 43%);
+    
+}
+
+section h2,section p,section button{
+ margin: 5% 7%;
+ font-weight: 400;
+}
+section p strong{
+    font-size: 25px;
+}
+section p.para{
+    color: hsl(204, 34%, 89%);
+    font-size: 14px;
+}
+section button{
+    text-decoration: none;
+    background-color:hsl(71, 73%, 54%) ;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 90px;
+    box-shadow: 0px 0px 5px hsl(71, 56%, 35%);
+}
+article{
+    background-color:rgb(67, 194, 192) ;
+    color:hsl(204, 43%, 93%) ;
+}
+article h3,article p{
+    margin:5% 7%;
+    line-height: 1.5;
+    font-weight: 400;
+}
+article h3{
+    font-size: 20px;
+}
+article p{
+    font-size: 14px;
+    color: hsl(204, 34%, 89%);
+}
+
+footer{
+    background-color:hsl(71, 73%, 54%);
+}
+footer p.attribution a{
+    text-decoration: none;
+    color: ivory;
+    font-size: 16px;
+    transition: 0.6s ease;
+}
+a:hover{
+    color: khaki;
+}
+
+@media screen min-width(600px){
+    body{
+        color: black;
+    }
+}
