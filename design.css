@@ -62,6 +62,10 @@ section button{
     font-size: 15px;
     padding: 10px 90px;
     box-shadow: 0px 0px 5px hsl(71, 56%, 35%);
+    cursor: pointer; 
+}
+button:hover{
+    opacity: .8;
 }
 article{
     background-color:rgb(67, 194, 192) ;
